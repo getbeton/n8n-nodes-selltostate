@@ -1,6 +1,6 @@
 # n8n-nodes-selltostate
 
-n8n community nodes for [Sell to State](https://selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-n8n): government tenders and contract awards from official procurement sources in more than 60 countries.
+n8n community nodes for [Sell to State](https://www.selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-n8n): government tenders and contract awards from official procurement sources in more than 60 countries.
 
 - **Sell to State**: search and get tenders, buyers and suppliers. Works as a tool for the n8n AI Agent.
 - **Sell to State Trigger**: starts a workflow when Sell to State adds tenders that match a search.
@@ -43,7 +43,7 @@ The search API allows 300 calls per minute per key. A poll every 5 minutes or mo
 ## Links
 
 - API docs: [docs.selltostate.com](https://docs.selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-n8n)
-- Countries and data depth: [selltostate.com/countries](https://selltostate.com/countries/?utm_source=github&utm_medium=referral&utm_campaign=sts-n8n)
+- Countries and data depth: [selltostate.com/countries](https://www.selltostate.com/countries/?utm_source=github&utm_medium=referral&utm_campaign=sts-n8n)
 - Skills and MCP for AI agents: [getbeton/selltostate-skills](https://github.com/getbeton/selltostate-skills)
 - Support: support@selltostate.com
 
