@@ -1,0 +1,57 @@
+{
+	"name": "n8n-nodes-selltostate",
+	"version": "0.1.0",
+	"description": "n8n nodes for Sell to State: search government tenders, buyers and suppliers in 60+ countries, and trigger on new tenders.",
+	"license": "MIT",
+	"homepage": "https://github.com/getbeton/n8n-nodes-selltostate",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"government-contracts",
+		"tenders",
+		"public-procurement",
+		"rfp",
+		"sell-to-state"
+	],
+	"author": {
+		"name": "Sell to State",
+		"email": "support@selltostate.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/getbeton/n8n-nodes-selltostate.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/SellToStateApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/SellToState/SellToState.node.js",
+			"dist/nodes/SellToState/SellToStateTrigger.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.39.4",
+		"prettier": "3.8.3",
+		"release-it": "20.2.0",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

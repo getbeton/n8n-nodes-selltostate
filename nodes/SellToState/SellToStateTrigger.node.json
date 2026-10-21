@@ -1,0 +1,21 @@
+{
+	"node": "n8n-nodes-selltostate.sellToStateTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Sales",
+		"Data & Storage"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/getbeton/n8n-nodes-selltostate?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/getbeton/n8n-nodes-selltostate?tab=readme-ov-file"
+			}
+		]
+	}
+}
