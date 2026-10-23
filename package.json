@@ -19,7 +19,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/getbeton/n8n-nodes-selltostate.git"
+		"url": "git+https://github.com/getbeton/n8n-nodes-selltostate.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -33,6 +33,9 @@
 	"files": [
 		"dist"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"strict": true,
