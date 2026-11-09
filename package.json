@@ -1,7 +1,7 @@
 {
 	"name": "n8n-nodes-selltostate",
 	"version": "0.1.0",
-	"description": "n8n nodes for Sell to State: search government tenders, buyers and suppliers in 60+ countries, and trigger on new tenders.",
+	"description": "n8n nodes for Sell to State: search government tenders, buyers and suppliers in 70+ countries, and trigger on new tenders.",
 	"license": "MIT",
 	"homepage": "https://github.com/getbeton/n8n-nodes-selltostate",
 	"keywords": [

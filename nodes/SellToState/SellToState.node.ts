@@ -178,7 +178,7 @@ export class SellToState implements INodeType {
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description:
-			'Government tenders, contract awards, buyers and suppliers from official procurement sources in 60+ countries',
+			'Government tenders, contract awards, buyers and suppliers from official procurement sources in 70+ countries',
 		defaults: { name: 'Sell to State' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
